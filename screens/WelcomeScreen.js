@@ -60,7 +60,7 @@ source={require('../assets/images.png')}/>
           secureTextEntry = {true}
           onChangeText={(text)=>{
             this.setState({
-              emailId: text
+              password: text
             })
           }}
         />
